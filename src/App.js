@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Pokedex from "./Pokedex";
+import Pokegame, { getRandomCardId } from "./Pokegame";
 
 /** Component App
  * Renders a single Pokedex component.
@@ -23,8 +23,8 @@ function App() {
   return (
     <div className="App">
       <h1 className="App-title">Pokedex</h1>
-      <div className="App-cards">
-        <Pokedex cards={cards} />
+      <div className="App-game">
+        <Pokegame cards={cards} />
       </div>
     </div>
   );
