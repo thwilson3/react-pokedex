@@ -2,28 +2,15 @@
   text-align: center;
 }
 
-.Pokedex {
+.App-title {
   color: rgb(221, 209, 209);
 }
 
-.Pokemon {
-  background-color: rgb(213, 207, 207);
-  height: 250px;
-  width: 200px;
-  margin: 60px;
-  border-radius: 10px;
-}
-
-.cards {
+.App-cards {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.Pokemon-name {
-  color: blue;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 /*

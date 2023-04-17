@@ -2,6 +2,10 @@ import React from "react";
 import "./App.css";
 import Pokedex from "./Pokedex";
 
+/** Component App
+ * Renders a single Pokedex component.
+ * */
+
 function App() {
   const cards = [
     { id: 4, name: "Charmander", type: "fire", base_experience: 62 },
@@ -18,8 +22,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="Pokedex">Pokedex</h1>
-      <div className="cards">
+      <h1 className="App-title">Pokedex</h1>
+      <div className="App-cards">
         <Pokedex cards={cards} />
       </div>
     </div>

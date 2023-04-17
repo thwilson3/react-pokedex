@@ -1,0 +1,12 @@
+.Pokecard-name {
+  color: blue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.Pokecard {
+  background-color: rgb(213, 207, 207);
+  height: 250px;
+  width: 200px;
+  margin: 60px;
+  border-radius: 10px;
+}
