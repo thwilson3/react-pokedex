@@ -4,9 +4,18 @@
 }
 
 .Pokecard {
-  background-color: rgb(213, 207, 207);
+  background-color: #fbe790;
   height: 250px;
   width: 200px;
   margin: 60px;
   border-radius: 10px;
+}
+
+.Pokecard img {
+  transition: transform 0.4s;
+}
+
+.Pokecard:hover img {
+  transform: scale(2);
+  transform-origin: 50% 50%;
 }
