@@ -1,0 +1,29 @@
+.Pokegame-board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.Pokegame-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Pokegame-winner {
+    margin-bottom: 30px;
+}
+
+.Pokegame-p1 {
+    display: block;
+    background-color: lightblue;
+    margin: 15px;
+}
+
+.Pokegame-p2 {
+    display: block;
+    background-color: lightcoral;
+    margin: 15px;
+}
